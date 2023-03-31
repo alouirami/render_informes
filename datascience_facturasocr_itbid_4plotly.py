@@ -65,6 +65,7 @@ ranking_chart.update_yaxes(categoryorder='total ascending')
 
 # Crear la aplicación Dash
 app = dash.Dash(__name__)
+server = app.server
 
 
 # Diseño de la aplicación
